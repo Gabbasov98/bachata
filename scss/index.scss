@@ -174,6 +174,7 @@
         height: 77px;
         display: flex;
         align-items: center;
+        justify-content: center;
         padding: 0 73px;
         font-size: 60px;
         color: #DB251A;
@@ -479,6 +480,22 @@
                     margin: 0 0 10px;
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .main {
+        &__date {
+            font-size: 38px;
+        }
+        &__btn {
+            width: 100%;
+        }
+    }
+    .form {
+        &__btn {
+            width: 100%;
         }
     }
 }

@@ -380,6 +380,7 @@ input[type="date"]:valid::before {
   height: 77px;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0 73px;
   font-size: 60px;
   color: #DB251A;
@@ -674,6 +675,18 @@ input[type="date"]:valid::before {
   .footer__info-bottom span {
     display: block;
     margin: 0 0 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .main__date {
+    font-size: 38px;
+  }
+  .main__btn {
+    width: 100%;
+  }
+
+  .form__btn {
+    width: 100%;
   }
 }
 html {
