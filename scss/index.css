@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth; }
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -13,7 +16,8 @@
   line-height: 130.4%;
   color: #FFFFFF; }
   .btn-red:hover {
-    opacity: 0.8; }
+    opacity: 0.8;
+    color: #fff; }
 
 .header__inner {
   display: flex;
@@ -147,7 +151,8 @@
     padding: 0 73px;
     font-size: 60px;
     color: #DB251A;
-    max-width: 470px; }
+    max-width: 470px;
+    white-space: nowrap; }
   .main__desc {
     font-size: 20px;
     line-height: 130.4%;
